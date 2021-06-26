@@ -1,0 +1,46 @@
+.signup-section{
+    position: relative;
+    font-family: 'Benne';
+    top:75px;
+    display: flex;
+}
+.sample{
+    width: 60vw;
+    height: 87vh;
+}
+.signup-form{
+    margin: 10vh auto;
+}
+.signup-form>div:first-child{
+    color: grey;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.signup-form>div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.signup-form input{
+    margin: 10px 0;
+    height: 4vh;
+    width: 25vw;
+}
+.signup-form label{
+    font-size: large;
+    font-weight: bold;
+}
+.signup-form button{
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    cursor: pointer;;
+}
+.alerter{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}

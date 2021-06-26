@@ -1,0 +1,48 @@
+.user-section{
+    position: relative;
+    top:100px;
+}
+.logout-button{
+    width: 100px;
+    height: 40px;
+    outline: none;   
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Benne',serif;
+    cursor: pointer;
+    background-color: gray;
+    position: absolute;
+    right: 70px;
+    top:-25px;
+    border: 1px solid black;
+}
+.users{
+    font-family: 'Benne';
+    margin: 10px;
+}
+
+#bookinglist td{
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bookinglist,td,th{
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid black;
+}
+#bookinglist{
+    margin: auto;
+    width: 100%;
+}
+#bookinglist th{
+    height: 10vh;
+    font-family: 'Benne';
+    font-size: large;
+    position:sticky;
+    background-color: gray;
+    top:-1px;
+}
+#tbl{
+    height: 60vh;
+    overflow: auto;
+}

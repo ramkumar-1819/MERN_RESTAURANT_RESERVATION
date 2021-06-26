@@ -1,0 +1,128 @@
+.admins{
+    position: absolute;
+    top:75px;
+    width: 100%;
+    height: 87%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+.routess{
+    font-family: 'Benne';
+    font-size:x-large;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    background-color: black;
+    height: 100%;
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.routess a{
+    text-decoration: none;
+}
+.routess div{
+    position: relative;
+    color: white;
+}
+.routess div::before{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: yellow;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+}
+.routess div:hover{
+    color: yellow !important;
+    cursor: pointer;
+}
+.routess div:hover::before{
+    cursor: pointer;
+    width: 100%;
+    visibility: visible;
+}
+
+.all{
+  width: 80vw !important;
+  margin: 10px 45px !important;
+}
+.main>h1{
+    font-family: 'Benne';
+    text-align: center;
+}
+#date,#inv-date{
+    display: block;
+    margin: auto;
+}
+.menu-list{
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+.edit{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+.edit>input{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    margin-right: 2px;
+}
+.edit>textarea{
+    font-family: 'Times New Roman', Times, serif;
+    width:50vw;
+    height: 20vh;
+    padding: 10px;
+    line-height: 1.5;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    resize: none;
+    margin-right: 2px;
+}
+.delete-menu,.update-menu{
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Benne';
+    margin-right: 5px;
+}
+.dishes-menu{
+    width: 100px !important;
+    height: 70px !important;
+}
+#change-image{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+#change-image>input{
+    width:200px;
+    padding-left: 10px;
+}
+#addnewmenu{
+    display: block;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin: 10px auto;
+}

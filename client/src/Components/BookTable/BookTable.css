@@ -1,0 +1,104 @@
+#booking-form{
+    position: relative;
+    top:50px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Benne';
+    padding:25px 0;
+}
+#booking-form >input,select{
+    margin: 10px;
+    height: 30px;
+    text-indent: 5px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#booking-form>select{
+    margin: 10px;
+    width: auto;
+}
+#booking-form button{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Benne';
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: -22px;
+    left:40%;
+    color: white;
+    background-color:rgb(63, 62, 62);
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+#booking-form textarea{
+    margin: 10px;
+    height: 15vh;
+    text-indent: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:5px;
+    font-size: large;
+}
+.slot-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slot-date>input,select{
+    font-family:'Benne';
+    font-size: large;
+    height: 30px;
+    width: 47%;
+    text-indent: 5px;
+}
+.slot-date>input{
+    margin-left: 10px;
+}
+.slot-date>select{
+    margin-right: 10px;
+}
+::placeholder{
+    font-size: larger;
+    font-family: 'Benne';
+}
+.table-booking-section>h2{
+    display: inline-block;
+    padding: 0 5px;
+    position: relative;
+    top:80px;
+    left: 41%;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bolder;
+    z-index: 1;
+    font-family: 'Benne';
+}
+.msg-booktable{
+    position: absolute;
+    top:100px;
+    left:38%;
+    margin: 5px auto;
+}
+.msg-booktable button{
+    font-weight: bold;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    margin: 10px 35%;
+    cursor: pointer;
+}
+#alerter{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
